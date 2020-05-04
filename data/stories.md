@@ -1,3 +1,23 @@
+## search hospital happy path
+* greet
+  - utter_greet
+* search_provider{"facility_type":"hospital", "location":"San Francisco"}
+  - action_facility_search
+  - slot{"address":"365 Geary St, San Francisco"}
+* thanks
+  - utter_goodbye
+  
+## search hospital + location
+* greet
+  - utter_how_can_i_help
+* search_provider{"facility_type":"hospital"}
+  - utter_ask_location
+* inform{"location":"San Francisco"}
+  - action_facility_search
+  - slot{"address":"365 Geary St, San Francisco"}
+* thanks
+  - utter_goodbye
+
 ## happy path
 * greet
   - utter_greet

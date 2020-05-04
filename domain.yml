@@ -6,6 +6,32 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - search_provider
+  - inform
+  - thanks
+
+entities:
+  - location
+  - facility_type
+
+slots:
+  location:
+    type: text
+  facility_type:
+    type: text
+  address:
+    type: unfeaturized
+
+actions:
+  - utter_greet
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+  - utter_iamabot
+  - utter_how_can_i_help
+  - action_facility_search
+  - utter_ask_location
 
 responses:
   utter_greet:
@@ -26,6 +52,15 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_how_can_i_help:
+  - text: "Hello. I am a medical care locator. I can find the nearest hospital. How can I help?"
+  - text: "Hi. My name is Medical Care Locator. How can I help you today?"
+
+  utter_ask_location:
+  - text: "Can you provide your location, please?"
+  - text: "To find the nearest {facility_type}, I will need your location."
+
 
 session_config:
   session_expiration_time: 60
