@@ -183,33 +183,33 @@
 - show me [hospital](facility_type) in [Durham](location)
 - show me [home health agency](facility_type) in [Detroit](location)
 - find me a nearby [home health agency](facility_type) in [Reno](location)
-- hi i am in [Tampa](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hi i am in [San Diego](location) i need a [hospital](facility_type:xubh-q36u)
-- hi i am in [Nashville](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hi i am in [Sacramento](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hi i am in [Springfield](location) i need a [hospital](facility_type:xubh-q36u)
-- hi i am in [Atlanta](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hi i am in [Chicago](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hi i am in [Santa Cruz](location) i need a [hospital](facility_type:xubh-q36u)
-- hi i am in [Boston](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hello i am in [Tampa](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hello i am in [San Diego](location) i need a [hospital](facility_type:xubh-q36u)
-- hello i am in [Nashville](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hello i am in [Sacramento](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hello i am in [Springfield](location) i need a [hospital](facility_type:xubh-q36u)
-- hello i am in [Atlanta](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- hello i am in [Chicago](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- hello i am in [Santa Cruz](location) i need a [hospital](facility_type:xubh-q36u)
-- hello i am in [Boston](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- Good morning i am in [Tampa](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- Good morning i am in [San Diego](location) i need a [hospital](facility_type:xubh-q36u)
-- Good morning i am in [Nashville](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- Good morning i am in [Sacramento](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- Good morning i am in [Springfield](location) i need a [hospital](facility_type:xubh-q36u)
-- Good morning i am in [Atlanta](location) i need a [home health agenc](facility_type:9wzi-peqs)
-- Good morning i am in [Chicago](location) i need a [nursing  home](facility_type:b27b-2uc7)
-- Good morning i am in [Santa Cruz](location) i need a [hospital](facility_type:xubh-q36u)
-- Good morning i am in [Boston](location) i need a [home health agenc](facility_type:9wzi-peqs)
+- hi i am in [Tampa](location) i need a [nursing  home]{"entity": "facility_type", "value": "b27b-2uc7"}
+- hi i am in [San Diego](location) i need a [hospital]{"entity": "facility_type", "value": "xubh-q36u"}
+- hi i am in [Nashville](location) i need a [home health agenc]{"entity": "facility_type", "value": "9wzi-peqs"}
+- hi i am in [Sacramento](location) i need a [nursing  home]{"entity": "facility_type", "value": "b27b-2uc7"}
+- hi i am in [Springfield](location) i need a [hospital]{"entity": "facility_type", "value": "xubh-q36u"}
+- hi i am in [Atlanta](location) i need a [home health agenc]{"entity": "facility_type", "value": "9wzi-peqs"}
+- hi i am in [Chicago](location) i need a [nursing  home]{"entity": "facility_type", "value": "b27b-2uc7"}
+- hi i am in [Santa Cruz](location) i need a [hospital]{"entity": "facility_type", "value": "xubh-q36u"}
+- hi i am in [Boston](location) i need a [home health agenc]{"entity": "facility_type", "value": "9wzi-peqs"}
+- hello i am in [Tampa](location) i need a [nursing  home]{"entity": "facility_type", "value": "b27b-2uc7"}
+- hello i am in [San Diego](location) i need a [hospital]{"entity": "facility_type", "value": "xubh-q36u"}
+- hello i am in [Nashville](location) i need a [home health agenc]{"entity": "facility_type", "value": "9wzi-peqs"}
+- hello i am in [Sacramento](location) i need a [nursing  home]{"entity": "facility_type", "value": "b27b-2uc7"}
+- hello i am in [Springfield](location) i need a [hospital]{"entity": "facility_type", "value": "xubh-q36u"}
+- hello i am in [Atlanta](location) i need a [home health agenc]{"entity": "facility_type", "value": "9wzi-peqs"}
+- hello i am in [Chicago](location) i need a [nursing  home]{"entity": "facility_type", "value": "b27b-2uc7"}
+- hello i am in [Santa Cruz](location) i need a [hospital]{"entity": "facility_type", "value": "xubh-q36u"}
+- hello i am in [Boston](location) i need a [home health agenc]{"entity": "facility_type", "value": "9wzi-peqs"}
+- Good morning i am in [Tampa](location) i need a [nursing  home]{"entity": "facility_type", "value": "b27b-2uc7"}
+- Good morning i am in [San Diego](location) i need a [hospital]{"entity": "facility_type", "value": "xubh-q36u"}
+- Good morning i am in [Nashville](location) i need a [home health agenc]{"entity": "facility_type", "value": "9wzi-peqs"}
+- Good morning i am in [Sacramento](location) i need a [nursing  home]{"entity": "facility_type", "value": "b27b-2uc7"}
+- Good morning i am in [Springfield](location) i need a [hospital]{"entity": "facility_type", "value": "xubh-q36u"}
+- Good morning i am in [Atlanta](location) i need a [home health agenc]{"entity": "facility_type", "value": "9wzi-peqs"}
+- Good morning i am in [Chicago](location) i need a [nursing  home]{"entity": "facility_type", "value": "b27b-2uc7"}
+- Good morning i am in [Santa Cruz](location) i need a [hospital]{"entity": "facility_type", "value": "xubh-q36u"}
+- Good morning i am in [Boston](location) i need a [home health agenc]{"entity": "facility_type", "value": "9wzi-peqs"}
 - Hello again i need a [nursing home](facility_type) in [Katy](location)
 - Hello again i need a [hospital](facility_type) in [Waco](location)
 - Hello again i need a [home health agency](facility_type) in [Clarksville](location)
