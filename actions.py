@@ -131,7 +131,10 @@ class FindHealthCareAddress(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict]:
 
-        facility_type = tracker.get_slot("facility_type")
+        facility_type = tracker.get_slot('facility_type')
+        # HACKHACK: The tracker's slots can be lists, and that breaks _find_facilities
+        if isinstance(facility_type, List):
+            facility_type = facility_type[0]  # take the resource code
         healthcare_id = tracker.get_slot("facility_id")
         full_path = _create_path(ENDPOINTS["base"], facility_type,
                                  ENDPOINTS[facility_type]["id_query"],
@@ -197,8 +200,13 @@ class FacilityForm(FormAction):
         """Once required slots are filled, print buttons for found facilities"""
 
         location = tracker.get_slot('location')
+        # HACKHACK: The tracker's slots can be lists, and that breaks _find_facilities
+        if isinstance(location, List):
+            location = location[len(location)-1]  # take the last location in the list
         facility_type = tracker.get_slot('facility_type')
-
+        # HACKHACK: The tracker's slots can be lists, and that breaks _find_facilities
+        if isinstance(facility_type, List):
+            facility_type = facility_type[0]  # take the resource code
         results = _find_facilities(location, facility_type)
         button_name = _resolve_name(FACILITY_TYPES, facility_type)
         if len(results) == 0:
