@@ -22,5 +22,6 @@ _Each heading possibly in a separate repo._
    1. Interesting (e.g. lateral) relationships between papers, lines of research, and research teams.   
    2. Structure of human knowledge and [inductive bias](https://arxiv.org/pdf/1806.01261.pdf) in learning.   
 4. Deep provenance of PDP concepts.   
-   1. Longitudinal construction dynamics of human consensus knowledge.   
+   1. Longitudinal construction dynamics of human consensus knowledge.  
+5. Mine and answer scientific questions of interest, as stated in the CORD-19 homepage and paper.  
    
