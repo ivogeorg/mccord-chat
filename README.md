@@ -10,6 +10,7 @@ _Each heading possibly in a separate repo._
    1. Collect PDFs to create datasets for supervised, semi-supervised, and unsupervised training of (the distributed and dynamically integrated components) of a _"paper digester"_.  The goal is to create a _multi-modal transformer_ for the digestion of any scientific paper and document into operational hierarchical inhomogeneous-network format.  PDFs will be converted to images so that the model can learn to use computer vision as the sole input.  
    2. Explore [graph neural networks](https://www.google.com/search?q=graph+neural+network) for the true-Rumelhart PDP representation of knowledge bases with distributed multi-modal representation and identificiation of "concepts" as the compositional and hierarchical units of human (scientivic) knoweledge.  
    3. Figure understanding and generation.  
+   4. Deep reference scrub. (Depth of 5+.)  
 2. Conversational baseline on Rasa.  
    1. Use [Swivel](https://arxiv.org/abs/1602.02215) (embeddings [list](https://github.com/Separius/awesome-sentence-embedding)) embeddings and pretrained [Scibert](https://arxiv.org/abs/1903.10676) ([Github](https://github.com/allenai/scibert)) in DIET model. (Swivel [exploration in TF](https://www.tensorflow.org/hub/tutorials/cord_19_embeddings_keras).)    
    2. Bot behavior is mostly in the (TED) policy.  
@@ -21,6 +22,7 @@ _Each heading possibly in a separate repo._
 3. Classification of inquiries, mapped to knowledge graph patterns.
    1. Interesting (e.g. lateral) relationships between papers, lines of research, and research teams.   
    2. Structure of human knowledge and [inductive bias](https://arxiv.org/pdf/1806.01261.pdf) in learning.   
+   3. _Situate_ a given paper. Up, down, sideways, and parallel.  
 4. Deep provenance of PDP concepts.   
    1. Longitudinal construction dynamics of human consensus knowledge.  
 5. Mine and answer scientific questions of interest, as stated in the CORD-19 homepage and paper.  
