@@ -17,8 +17,10 @@ _Each heading possibly in a separate repo._
    4. Entities may not be able to be used for PDP concepts. _This will probably be the first extension to Rasa._  
    5. NLG for conversational agent. Likely a long-term project directed toward _Level 4_ (aka [_consultative_](https://blog.rasa.com/5-levels-of-conversational-ai-2020-update/)) agents, which are necessarily heavily interdependent with _representation of normative knowledge_.  
    6. Embedding bot app with synchronized canvas (for figures, interactive sketching, etc). This requires borrowing from _game engines_ and probably a few innovations, especially in deep representation (e.g. embeddings) of knowledge.  
+   7. Bot2bot training, constrained by human-speech bottleneck.  
 3. Classification of inquiries, mapped to knowledge graph patterns.
-   1. Structure of human knowledge and [inductive bias](https://arxiv.org/pdf/1806.01261.pdf) in learning.   
+   1. Interesting (e.g. lateral) relationships between papers, lines of research, and research teams.   
+   2. Structure of human knowledge and [inductive bias](https://arxiv.org/pdf/1806.01261.pdf) in learning.   
 4. Deep provenance of PDP concepts.   
    1. Longitudinal construction dynamics of human consensus knowledge.   
    
